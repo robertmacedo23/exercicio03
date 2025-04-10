@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo DOM</title>
+</head>
+<body>
+
+    <h1 id="titulo">Título original</h1>
+    <h2>Subtítulo</h2>
+    <p id="paragrafo">Este é um parágrafo.</p>
+    <div id="caixa">Conteúdo da div</div>
+    <input type="text" id="campoTexto" placeholder="Digite algo">
+
+    <script>
+        // Altera o conteúdo do elemento com ID "titulo"
+        let novoTitulo = prompt("Digite uma mensagem:");
+        document.getElementById("titulo").textContent = novoTitulo;
+    </script>
+
+</body>
+</html>
